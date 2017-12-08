@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>はじめてのHTML</title>
+  <!--    <style>
+  body { background:  skyblue; }
+</style>
+-->
+
+<link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body>
+  <p>Hallo World!</p>
+
+  <header>
+    <h1>タイトル的な？</h1>
+    <nav>
+      - ホーム
+      - <a href="https://dotinstall.com/lessons/basic_html_v3/31614" target="_blank">このサイトについて </a>
+      - プロフィール
+    </nav>
+    <div style="background:red;">
+      <section>
+        <h2>記事のカテゴリ１</h2>
+        <article>
+        </div>
+        <h3>記事１</h3>
+        <p>記事はこちら　→　<a href="more.html"> もっと見る </a></p>
+        <h4>やりたいこと</h4>
+        <ol>
+          <li><span style="color: green; " >プログラミング</span></li>
+          <li>ブログを自分で弄る</li>
+        </ol>
+        <a href="#sec2"> 記事2はこちら　</a>
+
+        <strong>やりたいこと</strong>
+        <dl>
+          <dt>グミ最高</dt>
+          <dd> グミはおいしいってこと</dd>
+        </dl>
+        <h3>画像</h3>
+        <a href="gazou.html" target="_blank"> 画像はこちら</a>
+        <pre>
+          fdhau
+          <br>
+          ioja
+          fdaio
+        </pre>
+
+        <blockquote>
+          int main void
+        </blockquote>
+
+      </article>
+      <hr> </hr>
+
+
+    </section>
+
+    <section id="sec2">
+      <h2>記事のカテゴリ２</h2>
+      <article>
+        <h3>表について</h3>
+        <table>
+          <thead>
+            <tr> <th> Size </th> <th> Price </th></tr>
+          </thead>
+
+          <tbody>
+            <tr> <td> S </td> <td> 150 </td></tr>
+            <tr> <td> M </td> <td> 180 </td></tr>
+            <tr> <td> L </td> <td> 210 </td></tr>
+            <tr> <td colspan="2"> free for kids! </td></tr>
+          </tbody>
+        </table>
+
+        <h3>アンケートフォーム</h3>
+        <form action="server.php" method="post">
+          <p>メールアドレス:<input type="text" name="email"></p>
+          <p>ログイン:<input type="password"  size="20" maxlength="15" placeholder="please input password"></p>
+          <p><input type="submit" value="送信"></p>
+
+          <p> コメント:
+            <textarea name="comment" cols="15" rows="3" placeholder="コメントをどうぞ"> </textarea>
+          </p>
+          <p>
+            <button type="submit"><strong>コメントを送信。 </strong></button>
+          </p>
+          <p>
+            <button type="button"><strong>ボタン押すだけ </strong></button>
+          </p>
+
+            <p><label>メールアドレス: <input type="email" name="email" required> </label></p>
+            <p>料金: <input type="number" name="Price"></p>
+            <p>誕生日: <input type="date" name="birthday"></p>
+
+            <p><input type="submit" value="送信"></p>
+          <p>
+            <label>Math: <input type="radio" name="class" value="Math"> </label>
+            English: <input type="radio" name="class" value="English">
+            Electric: <input type="radio" name="class" value="Electric">
+          </p>
+          <p>City:
+          <select name="City" size="6">
+            <option value="Tokyo" selected> Tokyo </option>
+            <option value="Osaka"> Osaka </option>
+            <option value="Nagoya"> Nagoya </option>
+            <option value="Sappolo"> Sappolo </option>
+            <option value="Hukuoka"> Hukuoka </option>
+          </select>
+        </p>
+        </form>
+      </article>
+
+      <article>
+        <h3> 文字参照について</h3>
+         <p> 「&lt; p &gt;タグで段落を作ることができる。」 </p>
+         <p>  区切り文字は&quot;です。</p>
+         <p>  文字参照は&amp;を使います。</p>
+      </article>
+    </section>
+
+    <aside>
+      <h4>副次的な情報</h4>
+    </aside>
+
+    <footer>
+      このサイトはミズシマケイタによって書かれています。
+    </footer>
+  </header>
+</body>
+
+</html>

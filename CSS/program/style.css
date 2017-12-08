@@ -1,0 +1,98 @@
+{color: blue}
+/*id、classに対するCSS*/
+#d1 {color: green; }
+.c1 {color: red; }
+
+/*, > +について*/
+div span {color: pink}
+div >span {color: blue}
+p.cs2 {color: green}
+
+/*属性セレクタについて*/
+/*a[title] {color: red}
+a[href="http://google.com"]s {color: red}*/
+
+/*a[class ~="search"] { color: green; }*/
+
+/*疑似クラスについて*/
+ol > li:first-child{color: skyblue}
+
+a:link{color: black}
+a:visited{color: orange}
+a:hover{color: violet}
+a:active{color: red}
+
+input:focus {background: blue}
+
+/*疑似要素について*/
+/*#gijiyouso:first-line{color: blue}*/
+#gijiyouso:first-letter{color: red}
+#gijiyouso:before{content: "!!"}
+#gijiyouso:after{content: "??"}
+
+/*プロパティの値について*/
+#property1 {font-size: 2em}
+#property2 {color: #124568; }
+#property3 {color: #00ff00; }
+#property4 {color: rgb(255, 0, 0)}
+
+/*テキストの領域*/
+div >p#box1 {
+  /*background: grey;*/
+  width: 50%;
+  height: 50px;
+  border:green 2px dashed;
+  padding: 10px 40px;
+  margin:20px 10px;
+}
+
+div >p#box2 {
+  /*background: grey;*/
+  border:green 2px dashed;
+  padding: 20px 40px;
+  margin:50px 10px;
+}
+
+#text1{
+  color:red;
+  font-size:15px;
+  font-family:sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*リストのスタイル*/
+ol{list-style: circle inside;}
+
+/*cursorのプロパティ*/
+.help {cursor: help;}
+.move{cursor: move;}
+.pointer {cursor: pointer;}
+
+/*背景食のプロパティ*/
+#background1 {
+  background: silver url('icon.png');
+  padding : 10px;
+}
+
+/*要素の配置*/
+/*#display1 { display: block;}*/
+.display1 { display: inline; }
+/*#display1 { display: block;}*/
+
+/*display-table*/
+.container {
+  display: table;
+  width: 300px;
+}
+.box {
+  display: table-cell;
+  width: 100px;
+}
+.row {
+  display: table-row;
+}
+.gray { background: gray; }
+.silver { background: silver; }
+.orange { background: orange; }
